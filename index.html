@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Kodinger">
+	<title>BK - SMK Nurul Iman Palembang; </title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/my-login.css">
+	  <link rel="icon" type="images/png" sizes="16x16" href="bootstrap/img/nurul iman.jpg">
+</head>
+<body class="my-login-page">
+	<section class="h-100">
+		<div class="container h-100">
+			<div class="row justify-content-md-center h-100">
+				<div class="card-wrapper">
+					<div class="brand" style="padding: 5px;">
+						<img src="bootstrap/img/nurul iman.png">
+					</div>
+					<div class="card fat">
+						<div class="card-body">
+							<h4 class="card-title"><center>Login</center></h4>
+							<form method="POST" action="login.php">
+							 
+								<div class="form-group">
+									<label for="username">Username</label>
+
+									<input id="username" type="text" class="form-control" name="username" value="" required autofocus>
+								</div>
+
+								<div class="form-group">
+									<label for="password">Password
+									</label>
+									<input id="password" type="password" class="form-control" name="password" required data-eye>
+								</div>
+
+								<div class="form-group">
+									<label>
+										<input type="checkbox" name="remember"> Remember Me
+									</label>
+								</div>
+
+								<div class="form-group no-margin">
+									<button type="submit" class="btn btn-primary btn-block" name="login">
+										Login
+									</button>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="footer">
+						Copyright &copy; Nadila PalcomTech
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="bootstrap/js/jquery.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="bootstrap/js/my-login.js"></script>
+</body>
+</html>

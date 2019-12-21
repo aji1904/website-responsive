@@ -1,0 +1,12 @@
+[23-Jan-2019 10:21:40 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/jonproje/dlhk.jonproject.com/config.php on line 7
+[23-Jan-2019 10:21:40 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/jonproje/dlhk.jonproject.com/config.php:10) in /home/jonproje/dlhk.jonproject.com/login.php on line 3
+[23-Jan-2019 10:21:40 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/jonproje/dlhk.jonproject.com/config.php:10) in /home/jonproje/dlhk.jonproject.com/login.php on line 3
+[23-Jan-2019 10:21:40 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/jonproje/dlhk.jonproject.com/login.php on line 10
+[23-Jan-2019 10:21:40 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/jonproje/dlhk.jonproject.com/login.php on line 11
+[19-Jun-2019 10:34:49 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/jonproje/dlhk.jonproject.com/logout.php on line 2
+[19-Jun-2019 10:35:57 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/jonproje/dlhk.jonproject.com/logout.php on line 2
+[19-Jun-2019 10:57:00 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/jonproje/dlhk.jonproject.com/logout.php on line 2
+[26-Jun-2019 06:29:30 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/jonproje/dlhk.jonproject.com/logout.php on line 2
+[26-Jun-2019 06:29:55 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/jonproje/dlhk.jonproject.com/login.php on line 11
+[26-Jun-2019 06:43:25 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/jonproje/dlhk.jonproject.com/logout.php on line 2
+[03-Jul-2019 13:21:52 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/jonproje/dlhk.jonproject.com/logout.php on line 2
